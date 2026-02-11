@@ -1,0 +1,20 @@
+# robots.txt for Nathan R. Watalah Portfolio
+# Optimized for Google and image indexing
+
+# Default rules for all crawlers
+User-agent: *
+Disallow: /admin/    # Keep admin folder private
+Allow: /             # Allow all other pages
+Allow: /gallery.html # Explicitly allow gallery
+Allow: /images/      # Allow all images in /images/ and subfolders
+
+# Google image-specific crawler
+User-agent: Googlebot-Image
+Disallow: /admin/
+Allow: /images/      # Allow all images
+
+# Sitemap location
+Sitemap: https://nathanrwatalahportfolio.com/sitemap.xml
+
+# Crawl-delay (optional)
+Crawl-delay: 1
