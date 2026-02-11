@@ -8,6 +8,13 @@
         <lastmod>2026-02-09</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
+
+        <!-- Profile Image -->
+        <image:image>
+            <image:loc>https://nathanrwatalahportfolio.com/images/profile/profile.jpg</image:loc>
+            <image:title>Nathan R. Watalah Profile Picture</image:title>
+            <image:caption>Profile photo of Nathan R. Watalah, ICT Student, IT Support Technician &amp; Data Analyst based in Liberia</image:caption>
+        </image:image>
     </url>
 
     <!-- Gallery Page with Images -->
@@ -67,7 +74,7 @@
             <image:caption>Diploma in SQL Beginner to Advanced Levels from UniAthena, blockchain verified, earned December 2025</image:caption>
         </image:image>
 
-        <!-- Beach and Outdoor Photos -->
+        <!-- Beach & Outdoor Photos -->
         <image:image>
             <image:loc>https://nathanrwatalahportfolio.com/images/personal/nathan-watalah-beach-grand-cape-mount-county-liberia-2026.jpg</image:loc>
             <image:title>At the Beach</image:title>
@@ -86,7 +93,7 @@
             <image:caption>Relaxing on lounge chair poolside during New Year's Day celebration in Maryland County, Liberia</image:caption>
         </image:image>
 
-        <!-- Events and Activities -->
+        <!-- Events & Activities -->
         <image:image>
             <image:loc>https://nathanrwatalahportfolio.com/images/personal/nathan-watalah-wedding-engagement-grand-bassa-county-liberia-2025.jpg</image:loc>
             <image:title>Wedding Engagement Ceremony</image:title>
