@@ -108,20 +108,21 @@ a:hover {
 }
 
 .btn-primary:hover {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     transform: translateY(-2px);
-    box-shadow: 0 10px 20px rgba(37, 99, 235, 0.2);
+    box-shadow: 0 10px 20px rgba(191, 192, 196, 0.2);
 }
 
 .btn-secondary {
-    background-color: transparent;
-    color: var(--primary-color);
-    border: 2px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: white;
+  
 }
 
 .btn-secondary:hover {
     background-color: var(--primary-color);
-    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(191, 192, 196, 0.2);
 }
 
 /* ===== NAVIGATION ===== */
