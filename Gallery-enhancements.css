@@ -1,6 +1,6 @@
-/* ===== ADDITIONAL CSS FOR UPGRADED GALLERY FEATURES ===== */
 
-/* ===== SCREEN READER ONLY (ACCESSIBILITY) ===== */
+
+/* SCREEN READER ONLY  */
 .sr-only {
     position: absolute;
     width: 1px;
@@ -41,7 +41,7 @@
     color: var(--text-light);
 }
 
-/* ===== IMAGE MODAL/LIGHTBOX ===== */
+/* IMAGE MODAL/LIGHTBOX  */
 .image-modal {
     position: fixed;
     top: 0;
@@ -177,7 +177,7 @@
     transform: translateY(-50%) scale(0.95);
 }
 
-/* ===== ENHANCED ANIMATIONS ===== */
+/* ENHANCED ANIMATIONS  */
 @keyframes fadeInScale {
     from {
         opacity: 0;
@@ -202,19 +202,19 @@
     }
 }
 
-/* ===== IMPROVED GALLERY ITEM STATES ===== */
+/* IMPROVED GALLERY ITEM STATES  */
 .gallery-item.animated,
 .personal-gallery-item.visible {
     animation: slideInUpBounce 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
 }
 
-/* ===== LOADING STATES ===== */
+/*  LOADING STATES  */
 .gallery-item img.loaded,
 .personal-gallery-item img.loaded {
     animation: fadeInScale 0.5s ease;
 }
 
-/* ===== FOCUS STYLES (ACCESSIBILITY) ===== */
+/* FOCUS STYLES (ACCESSIBILITY) */
 .filter-btn:focus,
 .search-input:focus,
 .modal-close:focus,
@@ -231,7 +231,7 @@
     outline: none;
 }
 
-/* ===== RESPONSIVE MODAL STYLES ===== */
+/* RESPONSIVE MODAL STYLES */
 @media (max-width: 768px) {
     .modal-content {
         padding: 80px 15px 15px;
@@ -308,7 +308,7 @@
     }
 }
 
-/* ===== IMPROVED HOVER EFFECTS ===== */
+/*  IMPROVED HOVER EFFECTS  */
 .gallery-item:hover {
     transform: translateY(-12px) scale(1.02);
 }
@@ -317,13 +317,13 @@
     transform: translateY(-12px) scale(1.02);
 }
 
-/* ===== SMOOTH TRANSITIONS ===== */
+/*  SMOOTH TRANSITIONS  */
 .gallery-item,
 .personal-gallery-item {
     will-change: transform, opacity;
 }
 
-/* ===== PRINT STYLES ===== */
+/*  PRINT STYLES  */
 @media print {
 
     .image-modal,
@@ -340,7 +340,7 @@
     }
 }
 
-/* ===== REDUCED MOTION SUPPORT (ACCESSIBILITY) ===== */
+/*  REDUCED MOTION SUPPORT (ACCESSIBILITY)  */
 @media (prefers-reduced-motion: reduce) {
 
     *,
@@ -361,7 +361,7 @@
     }
 }
 
-/* ===== HIGH CONTRAST MODE SUPPORT (ACCESSIBILITY) ===== */
+/* HIGH CONTRAST MODE SUPPORT  */
 @media (prefers-contrast: high) {
     .filter-btn {
         border-width: 3px;
@@ -377,7 +377,7 @@
     }
 }
 
-/* ===== DARK MODE SUPPORT (OPTIONAL FUTURE ENHANCEMENT) ===== */
+/*  DARK MODE SUPPORT  */
 @media (prefers-color-scheme: dark) {
     .search-input {
         background-color: #1e293b;

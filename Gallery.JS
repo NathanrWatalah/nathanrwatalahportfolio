@@ -1,4 +1,4 @@
-// ===== GALLERY FILTER FUNCTIONALITY (UPGRADED) =====
+//  GALLERY FILTER FUNCTIONALITY  
 const filterBtns = document.querySelectorAll('.filter-btn');
 const galleryItems = document.querySelectorAll('.gallery-item');
 const personalGalleryItems = document.querySelectorAll('.personal-gallery-item');
@@ -67,8 +67,8 @@ function announceFilterChange(filter) {
     }, 1000);
 }
 
-// ===== GALLERY IMAGE LAZY LOADING (UPGRADED) =====
-// Improved lazy loading with Intersection Observer
+// ===== GALLERY IMAGE LAZY LOADING 
+
 const imageObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -87,7 +87,7 @@ const imageObserver = new IntersectionObserver((entries) => {
         }
     });
 }, {
-    rootMargin: '50px' // Start loading 50px before image enters viewport
+    rootMargin: '50px'
 });
 
 // Observe all images in gallery
@@ -95,7 +95,7 @@ document.querySelectorAll('.gallery-item img, .personal-gallery-item img').forEa
     imageObserver.observe(img);
 });
 
-// ===== GALLERY ITEM SCROLL ANIMATION (UPGRADED) =====
+// ===== GALLERY ITEM SCROLL ANIMATION  =====
 const allGalleryItems = [...galleryItems, ...personalGalleryItems];
 
 // Set initial state for all items
@@ -311,7 +311,7 @@ if (document.readyState === 'loading') {
     addGallerySearch();
 }
 
-// ===== ACCESSIBILITY IMPROVEMENTS =====
+
 // Add ARIA labels to interactive elements
 document.querySelectorAll('.gallery-item, .personal-gallery-item').forEach((item, index) => {
     item.setAttribute('role', 'article');
