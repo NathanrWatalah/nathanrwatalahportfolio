@@ -88,6 +88,12 @@
       "@id": "https://nathanrwatalahportfolio.com/#website",
       "name": "Nathan R. Watalah Portfolio",
       "url": "https://nathanrwatalahportfolio.com/",
+      "hasPart": {
+        "@type": "WebPage",
+        "@id": "https://nathanrwatalahportfolio.com/knowledge-base/#webpage",
+        "name": "IT Troubleshooting Guides | Nathan R. Watalah",
+        "url": "https://nathanrwatalahportfolio.com/knowledge-base/"
+      },
       "publisher": {
         "@id": "https://nathanrwatalahportfolio.com/#person"
       }
@@ -133,6 +139,8 @@
                     <li><a href="#education" class="nav-link">Education</a></li>
                     <li><a href="#skills" class="nav-link">Skills</a></li>
                     <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="knowledge-base/" class="nav-link">Knowledge Base</a></li>
+                    <li><a href="ticketing-system/" class="nav-link">Ticketing System</a></li>
                     <li><a href="#contact" class="nav-link">Contact</a></li>
                     <li><a href="gallery.html" class="nav-link">Gallery</a></li>
                 </ul>
@@ -512,6 +520,15 @@
         <div class="container">
             <h2 class="section-title">Featured Projects</h2>
             <p class="projects-intro">A selection of dashboard, networking, database, and development projects. Open a project to see its overview and tools.</p>
+            <aside class="portfolio-kb-feature" aria-labelledby="portfolio-kb-title">
+                <span class="portfolio-kb-icon" aria-hidden="true"><i class="fas fa-book-open"></i></span>
+                <div class="portfolio-kb-copy">
+                    <p class="project-overline">FREE IT SUPPORT RESOURCE</p>
+                    <h3 id="portfolio-kb-title">IT Troubleshooting Knowledge Base</h3>
+                    <p>Browse 100 step-by-step guides for hardware, software, account, and network problems. Part of this portfolio—no separate website address needed.</p>
+                </div>
+                <a class="btn btn-primary" href="knowledge-base/">Browse troubleshooting guides <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+            </aside>
             <div class="project-filters" role="group" aria-label="Filter projects">
                 <button class="project-filter active" type="button" data-filter="all" aria-pressed="true">All</button>
                 <button class="project-filter" type="button" data-filter="dashboards" aria-pressed="false">Dashboards</button>
@@ -867,6 +884,7 @@
         <div class="container">
             <p>&copy; 2026 Nathan R. Watalah. All rights reserved.</p>
             <p>Built with <i class="fas fa-heart"></i> and passion for technology</p>
+            <p><a href="knowledge-base/">IT Troubleshooting Knowledge Base</a></p>
         </div>
     </footer>
 

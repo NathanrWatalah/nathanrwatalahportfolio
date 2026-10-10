@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Intune Enrollment and Device Compliance Failures | Nathan R. Watalah</title>
+<meta name="description" content="Troubleshoot Intune enrollment failures, compliance issues, and blocked device access for managed endpoints.">
+<meta name="author" content="Nathan R. Watalah">
+<link rel="canonical" href="https://nathanrwatalahportfolio.com/knowledge-base/software/intune-enrollment-and-device-compliance-failures/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Nathan R. Watalah Portfolio">
+<meta property="og:title" content="Intune Enrollment and Device Compliance Failures | Nathan R. Watalah">
+<meta property="og:description" content="Troubleshoot Intune enrollment failures, compliance issues, and blocked device access for managed endpoints.">
+<meta property="og:url" content="https://nathanrwatalahportfolio.com/knowledge-base/software/intune-enrollment-and-device-compliance-failures/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Intune Enrollment and Device Compliance Failures | Nathan R. Watalah">
+<meta name="twitter:description" content="Troubleshoot Intune enrollment failures, compliance issues, and blocked device access for managed endpoints.">
+<link rel="icon" type="image/svg+xml" href="../../../images/favicon.svg">
+<link rel="stylesheet" href="../../../knowledge-base/it-systems.css">
+<link rel="stylesheet" href="../../../knowledge-base/knowledge-base.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","headline":"Intune Enrollment and Device Compliance Failures","description":"Troubleshoot Intune enrollment failures, compliance issues, and blocked device access for managed endpoints.","author":{"@type":"Person","name":"Nathan R. Watalah"},"mainEntityOfPage":"https://nathanrwatalahportfolio.com/knowledge-base/software/intune-enrollment-and-device-compliance-failures/"}</script>
+</head>
+<body class="kb-page">
+<header class="site-header"><div class="container">
+<a class="brand" href="../../../">Nathan R. Watalah</a>
+<nav aria-label="Main">
+<a href="../../../">Portfolio</a>
+<a href="../../../knowledge-base/" aria-current="page">Knowledge Base</a>
+<a href="https://sites.google.com/view/watalahithelpdesk/" target="_blank" rel="noopener noreferrer">Ticketing System</a>
+<a href="https://sites.google.com/view/itassetmanagementsystem/home" target="_blank" rel="noopener noreferrer">Asset Management</a>
+</nav></div></header>
+<section class="page-intro kb-category-hero"><div class="container">
+<span class="kb-eyebrow">SOFTWARE SUPPORT GUIDE</span>
+<h1>Intune Enrollment and Device Compliance Failures</h1>
+<p>Software troubleshooting guide</p>
+</div></section>
+<main><div class="container">
+<article class="article">
+<p class="crumbs"><a href="../../../knowledge-base/">Knowledge Base</a> / <a href="../">Software</a> / Intune Enrollment and Device Compliance Failures</p>
+<h2>Problem</h2>
+<p class="problem">A device cannot enroll in Intune, does not show as compliant, or is blocked from accessing company resources because it fails required policy checks.</p>
+<p>Intune issues often happen when device registration is incomplete, the policy is misconfigured, or the endpoint is missing security settings required by the organization.</p>
+<div class="two-col">
+<section class="box"><h2>Symptoms to check</h2><ul>
+<li>Device shows as not compliant, pending, or not enrolled in the management portal.</li>
+<li>User cannot access email, Teams, or company apps.</li>
+<li>Device enrollment fails at setup or after a reset.</li>
+</ul></section>
+<section class="box"><h2>Possible causes</h2><ul>
+<li>A required application, password policy, or security setting is not met.</li>
+<li>Device registration is incomplete or the user account lacks enrollment rights.</li>
+<li>Corporate Wi-Fi, VPN, or identity settings are blocking the enrollment workflow.</li>
+</ul></section>
+</div>
+<h2>Resolution</h2>
+<ol class="steps">
+<li>Confirm the device is powered on, connected to the internet, and signed in with the correct organizational account.</li>
+<li>Review the device status in Intune or the endpoint management portal. Check whether the enrollment is blocked by a policy, device certificate, or compliance rule.</li>
+<li>Verify the user’s account is authorized to enroll the device and that the current device is supported by the company’s platform.</li>
+<li>Resolve any device compliance issues such as missing encryption, out-of-date OS, or security requirement failures before reattempting enrollment.</li>
+<li>If the portal still reports an error, collect the enrollment error code and device details, then escalate to the identity or endpoint management team.</li>
+</ol>
+<h2>Prevention and preparation</h2>
+<ul class="checklist">
+<li>Keep device enrollment policies aligned with the hardware and OS approved by the organization.</li>
+<li>Regularly verify the endpoint management team is tracking noncompliant devices before they block access.</li>
+<li>Document the supported enrollment steps and common compliance failures for users.</li>
+</ul>
+<h2>Related guides</h2>
+<div class="cards">
+<a class="card" href="../device-onboarding-and-setup/"><strong>Device Onboarding and Setup</strong></a>
+<a class="card" href="../windows-update-failed/"><strong>Windows Update Failed</strong></a>
+</div>
+<div class="callout">
+<p><strong>Still not fixed?</strong> Capture the device ID, enrollment error, and compliance status before escalating to the endpoint management team.</p>
+<a class="btn" href="https://sites.google.com/view/watalahithelpdesk/" target="_blank" rel="noopener noreferrer">Submit a ticket</a>
+</div>
+<p class="updated">Last reviewed: October 2026</p>
+</article>
+</div></main>
+<footer class="site-footer"><div class="container">
+<p>&copy; 2026 NathanITKB IT Troubleshooting Knowledge Base. Created and maintained by Nathan R. Watalah, Information Technology student and aspiring IT support technician.</p>
+<p><a href="../../../">Back to portfolio</a> &middot; <a href="../../../#contact">Contact</a></p>
+</div></footer>
+<script src="../../../knowledge-base/knowledge-base.js"></script>
+</body>
+</html>

@@ -679,6 +679,59 @@ section {
     margin: -2rem auto 3rem;
 }
 
+.portfolio-kb-feature {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    max-width: 940px;
+    margin: 0 auto 2rem;
+    padding: 1.4rem 1.6rem;
+    border: 1px solid rgba(215, 180, 106, 0.3);
+    border-radius: 16px;
+    background: linear-gradient(110deg, rgba(215, 180, 106, 0.1), rgba(255, 255, 255, 0.035));
+}
+
+.portfolio-kb-icon {
+    display: grid;
+    flex: 0 0 48px;
+    width: 48px;
+    height: 48px;
+    place-items: center;
+    border: 1px solid rgba(215, 180, 106, 0.3);
+    border-radius: 13px;
+    color: #e8cf91;
+    background: rgba(215, 180, 106, 0.1);
+    font-size: 1.15rem;
+}
+
+.portfolio-kb-copy {
+    flex: 1;
+}
+
+.portfolio-kb-copy .project-overline {
+    margin: 0 0 0.25rem;
+}
+
+.portfolio-kb-copy h3 {
+    margin: 0 0 0.35rem;
+    color: #f3eee2;
+    font-size: 1.15rem;
+}
+
+.portfolio-kb-copy > p:last-child {
+    margin: 0;
+    color: #aaa8a1;
+    font-size: 0.9rem;
+}
+
+.portfolio-kb-feature > .btn {
+    display: inline-flex;
+    flex: none;
+    align-items: center;
+    gap: 0.55rem;
+    font-size: 0.85rem;
+}
+
 .more-projects-title {
     margin: 0 0 2rem;
     text-align: center;
@@ -2125,6 +2178,14 @@ section {
     background: #07090d;
 }
 
+.footer a {
+    color: #e8d4a6;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
 .filter-btn {
     border-color: rgba(215, 180, 106, 0.35);
     color: #d7c79f;
@@ -2192,6 +2253,24 @@ section {
     justify-content: center;
     gap: 0.65rem;
     margin: 2rem 0 0.75rem;
+}
+
+@media (max-width: 680px) {
+    .portfolio-kb-feature {
+        align-items: flex-start;
+        flex-wrap: wrap;
+        padding: 1.15rem;
+    }
+
+    .portfolio-kb-copy {
+        flex-basis: calc(100% - 70px);
+    }
+
+    .portfolio-kb-feature > .btn {
+        width: 100%;
+        justify-content: center;
+        margin-left: 0;
+    }
 }
 
 .project-filter {

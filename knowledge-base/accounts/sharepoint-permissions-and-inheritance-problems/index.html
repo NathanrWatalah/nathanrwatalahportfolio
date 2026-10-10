@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SharePoint Permissions and Inheritance Problems | Nathan R. Watalah</title>
+<meta name="description" content="Troubleshoot SharePoint access issues caused by broken permissions, inheritance problems, or incorrect site group settings.">
+<meta name="author" content="Nathan R. Watalah">
+<link rel="canonical" href="https://nathanrwatalahportfolio.com/knowledge-base/accounts/sharepoint-permissions-and-inheritance-problems/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Nathan R. Watalah Portfolio">
+<meta property="og:title" content="SharePoint Permissions and Inheritance Problems | Nathan R. Watalah">
+<meta property="og:description" content="Troubleshoot SharePoint access issues caused by broken permissions, inheritance problems, or incorrect site group settings.">
+<meta property="og:url" content="https://nathanrwatalahportfolio.com/knowledge-base/accounts/sharepoint-permissions-and-inheritance-problems/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="SharePoint Permissions and Inheritance Problems | Nathan R. Watalah">
+<meta name="twitter:description" content="Troubleshoot SharePoint access issues caused by broken permissions, inheritance problems, or incorrect site group settings.">
+<link rel="icon" type="image/svg+xml" href="../../../images/favicon.svg">
+<link rel="stylesheet" href="../../../knowledge-base/it-systems.css">
+<link rel="stylesheet" href="../../../knowledge-base/knowledge-base.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","headline":"SharePoint Permissions and Inheritance Problems","description":"Troubleshoot SharePoint access issues caused by broken permissions, inheritance problems, or incorrect site group settings.","author":{"@type":"Person","name":"Nathan R. Watalah"},"mainEntityOfPage":"https://nathanrwatalahportfolio.com/knowledge-base/accounts/sharepoint-permissions-and-inheritance-problems/"}</script>
+</head>
+<body class="kb-page">
+<header class="site-header"><div class="container">
+<a class="brand" href="../../../">Nathan R. Watalah</a>
+<nav aria-label="Main">
+<a href="../../../">Portfolio</a>
+<a href="../../../knowledge-base/" aria-current="page">Knowledge Base</a>
+<a href="https://sites.google.com/view/watalahithelpdesk/" target="_blank" rel="noopener noreferrer">Ticketing System</a>
+<a href="https://sites.google.com/view/itassetmanagementsystem/home" target="_blank" rel="noopener noreferrer">Asset Management</a>
+</nav></div></header>
+<section class="page-intro kb-category-hero"><div class="container">
+<span class="kb-eyebrow">ACCOUNTS SUPPORT GUIDE</span>
+<h1>SharePoint Permissions and Inheritance Problems</h1>
+<p>Accounts troubleshooting guide</p>
+</div></section>
+<main><div class="container">
+<article class="article">
+<p class="crumbs"><a href="../../../knowledge-base/">Knowledge Base</a> / <a href="../">Accounts</a> / SharePoint Permissions and Inheritance Problems</p>
+<h2>Problem</h2>
+<p class="problem">Users get access denied messages, cannot open a document, or see missing files in SharePoint even though they should have permission.</p>
+<p>Permission issues are often caused by broken inheritance, incorrect group membership, or a copied library requiring a refresh of rights after a migration or folder change.</p>
+<div class="two-col">
+<section class="box"><h2>Symptoms to check</h2><ul>
+<li>A file or folder opens for one user but not another.</li>
+<li>A site or document set appears accessible but returns access denied.</li>
+<li>Newly added users cannot see content that should be visible.</li>
+</ul></section>
+<section class="box"><h2>Possible causes</h2><ul>
+<li>Permission inheritance was broken at the library or folder level.</li>
+<li>Security groups changed but rights were not updated on the target site.</li>
+<li>The user is a member of the wrong group or has conflicting access settings.</li>
+</ul></section>
+</div>
+<h2>Resolution</h2>
+<ol class="steps">
+<li>Confirm the user account is in the correct Microsoft 365 group, SharePoint group, or permission role for the site and library they are trying to access.</li>
+<li>Check whether the library, folder, or file has unique permissions. Review whether permission inheritance was intentionally broken or accidentally reset.</li>
+<li>Compare the effective access for the user and note whether the permissions are applied at the site, library, or item level.</li>
+<li>Reset the permission inheritance if the inherited structure is correct, or grant the proper permission level if it was intentionally customized.</li>
+<li>Have the user refresh the browser or reconnect to SharePoint and test access to a sample file before closing the issue.</li>
+</ol>
+<h2>Prevention and preparation</h2>
+<ul class="checklist">
+<li>Document the approved SharePoint permission model for each site.</li>
+<li>Keep group membership aligned with role-based access and avoid unnecessary local permissions.</li>
+<li>Review inheritance changes before migrating or copying content between sites.</li>
+</ul>
+<h2>Related guides</h2>
+<div class="cards">
+<a class="card" href="../sharepoint-access-denied/"><strong>SharePoint Access Denied</strong></a>
+<a class="card" href="../ticket-triage-and-escalation/"><strong>Ticket Triage and Escalation</strong></a>
+</div>
+<div class="callout">
+<p><strong>Still not fixed?</strong> Include the site name, library, user account, and the permission level currently assigned when you escalate the issue.</p>
+<a class="btn" href="https://sites.google.com/view/watalahithelpdesk/" target="_blank" rel="noopener noreferrer">Submit a ticket</a>
+</div>
+<p class="updated">Last reviewed: October 2026</p>
+</article>
+</div></main>
+<footer class="site-footer"><div class="container">
+<p>&copy; 2026 NathanITKB IT Troubleshooting Knowledge Base. Created and maintained by Nathan R. Watalah, Information Technology student and aspiring IT support technician.</p>
+<p><a href="../../../">Back to portfolio</a> &middot; <a href="../../../#contact">Contact</a></p>
+</div></footer>
+<script src="../../../knowledge-base/knowledge-base.js"></script>
+</body>
+</html>

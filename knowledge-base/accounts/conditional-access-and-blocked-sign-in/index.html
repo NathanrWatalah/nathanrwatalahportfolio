@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Conditional Access and Blocked Sign-In Troubleshooting | Nathan R. Watalah</title>
+<meta name="description" content="Troubleshoot blocked sign-ins caused by conditional access policies, device compliance issues, or location-based access restrictions.">
+<meta name="author" content="Nathan R. Watalah">
+<link rel="canonical" href="https://nathanrwatalahportfolio.com/knowledge-base/accounts/conditional-access-and-blocked-sign-in/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Nathan R. Watalah Portfolio">
+<meta property="og:title" content="Conditional Access and Blocked Sign-In Troubleshooting | Nathan R. Watalah">
+<meta property="og:description" content="Troubleshoot blocked sign-ins caused by conditional access policies, device compliance issues, or location-based access restrictions.">
+<meta property="og:url" content="https://nathanrwatalahportfolio.com/knowledge-base/accounts/conditional-access-and-blocked-sign-in/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Conditional Access and Blocked Sign-In Troubleshooting | Nathan R. Watalah">
+<meta name="twitter:description" content="Troubleshoot blocked sign-ins caused by conditional access policies, device compliance issues, or location-based access restrictions.">
+<link rel="icon" type="image/svg+xml" href="../../../images/favicon.svg">
+<link rel="stylesheet" href="../../../knowledge-base/it-systems.css">
+<link rel="stylesheet" href="../../../knowledge-base/knowledge-base.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","headline":"Conditional Access and Blocked Sign-In Troubleshooting","description":"Troubleshoot blocked sign-ins caused by conditional access policies, device compliance issues, or location-based access restrictions.","author":{"@type":"Person","name":"Nathan R. Watalah"},"mainEntityOfPage":"https://nathanrwatalahportfolio.com/knowledge-base/accounts/conditional-access-and-blocked-sign-in/"}</script>
+</head>
+<body class="kb-page">
+<header class="site-header"><div class="container">
+<a class="brand" href="../../../">Nathan R. Watalah</a>
+<nav aria-label="Main">
+<a href="../../../">Portfolio</a>
+<a href="../../../knowledge-base/" aria-current="page">Knowledge Base</a>
+<a href="https://sites.google.com/view/watalahithelpdesk/" target="_blank" rel="noopener noreferrer">Ticketing System</a>
+<a href="https://sites.google.com/view/itassetmanagementsystem/home" target="_blank" rel="noopener noreferrer">Asset Management</a>
+</nav></div></header>
+<section class="page-intro kb-category-hero"><div class="container">
+<span class="kb-eyebrow">ACCOUNTS SUPPORT GUIDE</span>
+<h1>Conditional Access and Blocked Sign-In Troubleshooting</h1>
+<p>Accounts troubleshooting guide</p>
+</div></section>
+<main><div class="container">
+<article class="article">
+<p class="crumbs"><a href="../../../knowledge-base/">Knowledge Base</a> / <a href="../">Accounts</a> / Conditional Access and Blocked Sign-In Troubleshooting</p>
+<h2>Problem</h2>
+<p class="problem">A user is denied access to Microsoft 365, OneDrive, or company apps even though the password is correct. The sign-in is blocked by a policy, device condition, or security rule.</p>
+<p>These issues often happen when the user is on an untrusted device, using a new location, or not meeting device compliance requirements. Check the access policy before changing user settings.</p>
+<div class="two-col">
+<section class="box"><h2>Symptoms to check</h2><ul>
+<li>The user receives a message that the app or location is not trusted.</li>
+<li>Sign-ins work on one device but fail on another.</li>
+<li>Access is denied only when connected remotely or from a shared network.</li>
+</ul></section>
+<section class="box"><h2>Possible causes</h2><ul>
+<li>Conditional access policy blocks the user, location, or device state.</li>
+<li>The device is not enrolled, compliant, or managed.</li>
+<li>Time, VPN, or network settings are preventing policy evaluation.</li>
+</ul></section>
+</div>
+<h2>Resolution</h2>
+<ol class="steps">
+<li>Review the sign-in error details and note the exact reason shown to the user, such as device compliance, risk level, or location restrictions.</li>
+<li>Verify whether the user is using a managed device, a compliant browser, or a trusted network. Confirm the device meets the required policy before escalating.</li>
+<li>Check whether the user recently changed their location, IP address, VPN, or network. A new location or VPN may trigger policy enforcement.</li>
+<li>Confirm the device is enrolled in Intune or another management platform and is compliant with the organization's rules before allowing access.</li>
+<li>If the policy is correct but the user is still blocked, collect the relevant sign-in logs and escalate to the identity or security team for a policy review.</li>
+</ol>
+<h2>Prevention and preparation</h2>
+<ul class="checklist">
+<li>Use device compliance and trust policies that match employee workflows.</li>
+<li>Train users to confirm they are on a managed, compliant device before reporting access issues.</li>
+<li>Document which locations, VPNs, and networks are expected to pass policy checks.</li>
+</ul>
+<h2>Related guides</h2>
+<div class="cards">
+<a class="card" href="../mfa-lockout-and-reset-workflow/"><strong>MFA Lockout and Reset Workflow</strong></a>
+<a class="card" href="../single-sign-on-sso-not-working/"><strong>Single Sign-On (SSO) Not Working</strong></a>
+</div>
+<div class="callout">
+<p><strong>Still not fixed?</strong> Record the exact failure message, timestamp, and user location, then escalate to the security or identity team with the policy and device details.</p>
+<a class="btn" href="https://sites.google.com/view/watalahithelpdesk/" target="_blank" rel="noopener noreferrer">Submit a ticket</a>
+</div>
+<p class="updated">Last reviewed: October 2026</p>
+</article>
+</div></main>
+<footer class="site-footer"><div class="container">
+<p>&copy; 2026 NathanITKB IT Troubleshooting Knowledge Base. Created and maintained by Nathan R. Watalah, Information Technology student and aspiring IT support technician.</p>
+<p><a href="../../../">Back to portfolio</a> &middot; <a href="../../../#contact">Contact</a></p>
+</div></footer>
+<script src="../../../knowledge-base/knowledge-base.js"></script>
+</body>
+</html>

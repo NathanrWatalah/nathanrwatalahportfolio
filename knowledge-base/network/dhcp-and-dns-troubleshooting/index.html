@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DHCP and DNS Troubleshooting: Troubleshooting Guide | Nathan R. Watalah</title>
+<meta name="description" content="Practical checks for DHCP and DNS troubleshooting. Follow the safe steps below and contact your support team if the issue continues.">
+<meta name="author" content="Nathan R. Watalah">
+<link rel="canonical" href="https://nathanrwatalahportfolio.com/knowledge-base/network/dhcp-and-dns-troubleshooting/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Nathan R. Watalah Portfolio">
+<meta property="og:title" content="DHCP and DNS Troubleshooting: Troubleshooting Guide | Nathan R. Watalah">
+<meta property="og:description" content="Practical checks for DHCP and DNS troubleshooting. Follow the safe steps below and contact your support team if the issue continues.">
+<meta property="og:url" content="https://nathanrwatalahportfolio.com/knowledge-base/network/dhcp-and-dns-troubleshooting/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="DHCP and DNS Troubleshooting: Troubleshooting Guide | Nathan R. Watalah">
+<meta name="twitter:description" content="Practical checks for DHCP and DNS troubleshooting. Follow the safe steps below and contact your support team if the issue continues.">
+<link rel="icon" type="image/svg+xml" href="../../../images/favicon.svg">
+<link rel="stylesheet" href="../../../knowledge-base/it-systems.css">
+<link rel="stylesheet" href="../../../knowledge-base/knowledge-base.css">
+<script type="application/ld+json">{"author":{"name":"Nathan R. Watalah","@type":"Person"},"description":"Practical checks for DHCP and DNS troubleshooting. Follow the safe steps below and contact your support team if the issue continues.","@context":"https://schema.org","mainEntityOfPage":"https://nathanrwatalahportfolio.com/knowledge-base/network/dhcp-and-dns-troubleshooting/","@type":"TechArticle","headline":"DHCP and DNS Troubleshooting"}</script>
+</head>
+<body class="kb-page">
+<header class="site-header"><div class="container">
+<a class="brand" href="../../../">Nathan R. Watalah</a>
+<nav aria-label="Main">
+<a href="../../../">Portfolio</a>
+<a href="../../../knowledge-base/" aria-current="page">Knowledge Base</a>
+<a href="https://sites.google.com/view/watalahithelpdesk/" target="_blank" rel="noopener noreferrer">Ticketing System</a>
+<a href="https://sites.google.com/view/itassetmanagementsystem/home" target="_blank" rel="noopener noreferrer">Asset Management</a>
+</nav></div></header>
+<section class="page-intro kb-category-hero"><div class="container">
+<span class="kb-eyebrow">NETWORK SUPPORT GUIDE</span>
+<h1>DHCP and DNS Troubleshooting</h1>
+<p>Network troubleshooting guide</p>
+</div></section>
+<main><div class="container">
+<article class="article">
+<p class="crumbs"><a href="../../../knowledge-base/">Knowledge Base</a> / <a href="../">Network</a> / DHCP and DNS Troubleshooting</p>
+<h2>Problem</h2>
+<p class="problem">Practical checks for DHCP and DNS troubleshooting. Follow the safe steps below and contact your support team if the issue continues.</p>
+<p>These are general troubleshooting checks, not a confirmed diagnosis. Follow your organization's procedures and stop if a step could risk data, safety, or managed equipment.</p>
+<div class="two-col">
+<section class="box"><h2>Symptoms to check</h2><ul>
+<li>Users receive an invalid or duplicate IP address, cannot resolve names, or cannot reach services by name.</li>
+<li>The issue may affect one device or many users on the same subnet.</li>
+</ul></section>
+<section class="box"><h2>Possible causes</h2><ul>
+<li>DHCP scope exhaustion, address conflicts, or server outages can result in broken connectivity.</li>
+<li>DNS server errors, stale records, or local resolver issues may prevent name lookup.</li>
+</ul></section>
+</div>
+<h2>Resolution</h2>
+<ol class="steps">
+<li>Check whether the affected device has a valid IP address, gateway, and DNS server. Confirm the issue is limited to one device or several devices on the same network.</li>
+<li>Use built-in tools to verify the assigned IP address and to test DNS by sending a lookup for a known hostname. If the IP is in the wrong range, a DHCP or network policy issue is likely involved.</li>
+<li>Review the DHCP server lease status, scope settings, and whether the device is receiving the correct default gateway and DNS values.</li>
+<li>If DNS fails, test a direct IP connection to confirm the issue is name resolution rather than general connectivity. Review the DNS server health and any recent record changes.</li>
+<li>Escalate to the network or server team with the exact IP, subnet, DNS test results, and scope or server status information so they can isolate the cause quickly.</li>
+</ol>
+<h2>Prevention and preparation</h2>
+<ul class="checklist">
+<li>Keep DHCP scopes and IP reservations documented and under active monitoring.</li>
+<li>Verify DNS changes carefully and monitor outage or misconfiguration alerts promptly.</li>
+</ul>
+<h2>Related guides</h2>
+<div class="cards">
+<a class="card" href="../ip-address-conflict/"><strong>IP Address Conflict</strong></a>
+<a class="card" href="../dns-server-not-responding/"><strong>DNS Server Not Responding</strong></a>
+</div>
+<div class="callout">
+<p><strong>Still not fixed?</strong> Log a support request and include the exact error, who or what is affected, and the steps you already tried. Never include passwords or verification codes.</p>
+<a class="btn" href="https://sites.google.com/view/watalahithelpdesk/" target="_blank" rel="noopener noreferrer">Submit a ticket</a>
+</div>
+<p class="updated">Last reviewed: October 2026</p>
+</article>
+</div></main>
+<footer class="site-footer"><div class="container">
+<p>&copy; 2026 NathanITKB IT Troubleshooting Knowledge Base. Created and maintained by Nathan R. Watalah, Information Technology student and aspiring IT support technician.</p>
+<p><a href="../../../">Back to portfolio</a> &middot; <a href="../../../#contact">Contact</a></p>
+</div></footer>
+<script src="../../../knowledge-base/knowledge-base.js"></script>
+</body></html>
