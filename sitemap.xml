@@ -5,120 +5,92 @@
     <!-- Homepage -->
     <url>
         <loc>https://nathanrwatalahportfolio.com/</loc>
-        <lastmod>2026-02-09</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>1.0</priority>
+        <lastmod>2026-10-09</lastmod>
 
         <!-- Profile Image -->
         <image:image>
             <image:loc>https://nathanrwatalahportfolio.com/images/profile/profile.jpg</image:loc>
             <image:title>Nathan R. Watalah Profile Picture</image:title>
-            <image:caption>Profile photo of Nathan R. Watalah, ICT Student, IT Support Technician &amp; Data Analyst based in Liberia</image:caption>
+            <image:caption>Profile photo of Nathan R. Watalah, an IT student focused on network administration and IT support in Liberia</image:caption>
         </image:image>
     </url>
 
     <!-- Gallery Page with Images -->
     <url>
         <loc>https://nathanrwatalahportfolio.com/gallery.html</loc>
-        <lastmod>2026-02-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.9</priority>
+        <lastmod>2026-10-09</lastmod>
 
-        <!-- Personal Images -->
+        <!-- Portfolio project images -->
         <image:image>
-            <image:loc>https://nathanrwatalahportfolio.com/images/personal/nathan-watalah-poolside-maryland-county-liberia-2025.jpg</image:loc>
-            <image:title>Nathan R Watalah Poolside in Maryland County</image:title>
-            <image:caption>Enjoying poolside time with friends in Maryland County, Liberia during semester break 2025</image:caption>
+            <image:loc>https://nathanrwatalahportfolio.com/images/projects/superstore-sales-dashboard-tableau.png</image:loc>
+            <image:title>Superstore Sales Dashboard</image:title>
+            <image:caption>Tableau dashboard for exploring regional sales and profit performance</image:caption>
         </image:image>
-
         <image:image>
-            <image:loc>https://nathanrwatalahportfolio.com/images/personal/nathan-watalah-relaxing-in-resort-pool-tropical-setting-liberia.jpg</image:loc>
-            <image:title>Nathan R Watalah in Resort Pool</image:title>
-            <image:caption>Relaxing in tropical resort pool surrounded by banana plants during semester break in Liberia</image:caption>
+            <image:loc>https://nathanrwatalahportfolio.com/images/projects/Customers_Churn_Dashboard.png</image:loc>
+            <image:title>Customer Churn Analysis Dashboard</image:title>
+            <image:caption>Excel dashboard for exploring customer churn patterns</image:caption>
         </image:image>
-
         <image:image>
-            <image:loc>https://nathanrwatalahportfolio.com/images/personal/nathan-watalah-poolside-resort-semester-break-liberia.jpg</image:loc>
-            <image:title>Nathan R Watalah Poolside Resort</image:title>
-            <image:caption>Standing poolside at tropical resort during semester break in Liberia, resort restaurant in background</image:caption>
+            <image:loc>https://nathanrwatalahportfolio.com/images/projects/sales-performance.png</image:loc>
+            <image:title>Sales Performance Analysis</image:title>
+            <image:caption>Excel sales dashboard with key measures, charts, and slicers</image:caption>
         </image:image>
-
-        <!-- Certificates -->
         <image:image>
-            <image:loc>https://nathanrwatalahportfolio.com/images/personal/nathan-watalah-it-support-diploma-alison-2025.jpg</image:loc>
-            <image:title>IT Support Diploma Certificate</image:title>
-            <image:caption>Diploma in Information Technology Support certificate from Alison, CPD certified, earned November 2025</image:caption>
+            <image:loc>https://nathanrwatalahportfolio.com/images/projects/Bike-Performance-Sale-Dashboard.png</image:loc>
+            <image:title>Bike Sales Performance Dashboard</image:title>
+            <image:caption>Excel dashboard for exploring bike sales performance and purchasing patterns</image:caption>
         </image:image>
-
         <image:image>
-            <image:loc>https://nathanrwatalahportfolio.com/images/personal/nathan-watalah-it-support-technician-certificate-alison-2026.jpg</image:loc>
-            <image:title>IT Support Technician Certificate</image:title>
-            <image:caption>Working as an IT Support Technician certificate from Alison, CPD certified, earned February 2026</image:caption>
+            <image:loc>https://nathanrwatalahportfolio.com/images/projects/Sales-Profit-Overview.png</image:loc>
+            <image:title>Retail Sales and Profit Tableau Dashboard</image:title>
+            <image:caption>Tableau view comparing retail sales and profit measures</image:caption>
         </image:image>
-
         <image:image>
-            <image:loc>https://nathanrwatalahportfolio.com/images/personal/nathan-watalah-meal-essentials-certificate-disaster-ready-2025.jpg</image:loc>
-            <image:title>MEAL Essentials Certificate</image:title>
-            <image:caption>MEAL Essentials Certificate from DisasterReady Cornerstone OnDemand Foundation, completed September 2025</image:caption>
+            <image:loc>https://nathanrwatalahportfolio.com/images/projects/project-image.png</image:loc>
+            <image:title>VLAN and DHCP Configuration</image:title>
+            <image:caption>Cisco Packet Tracer project demonstrating VLAN and DHCP configuration</image:caption>
         </image:image>
-
         <image:image>
-            <image:loc>https://nathanrwatalahportfolio.com/images/personal/nathan-watalah-leadership-essentials-certificate-nonprofitready-2025.jpg</image:loc>
-            <image:title>Leadership Essentials Certificate</image:title>
-            <image:caption>Leadership Essentials Certificate from NonprofitReady Cornerstone OnDemand Foundation, completed September 2025</image:caption>
+            <image:loc>https://nathanrwatalahportfolio.com/images/projects/retail-database-er-diagram.png</image:loc>
+            <image:title>Retail Sales and Inventory Database Design</image:title>
+            <image:caption>Entity relationship diagram for a SQL Server retail sales and inventory database</image:caption>
         </image:image>
-
         <image:image>
-            <image:loc>https://nathanrwatalahportfolio.com/images/personal/nathan-watalah-sql-diploma-beginner-advanced-uniathena-2025.jpg</image:loc>
-            <image:title>SQL Diploma Certificate</image:title>
-            <image:caption>Diploma in SQL Beginner to Advanced Levels from UniAthena, blockchain verified, earned December 2025</image:caption>
+            <image:loc>https://nathanrwatalahportfolio.com/images/projects/portfolio-website.jpg</image:loc>
+            <image:title>Portfolio Website</image:title>
+            <image:caption>Responsive portfolio project built with HTML, CSS, and JavaScript</image:caption>
         </image:image>
-
-        <!-- Beach & Outdoor Photos -->
         <image:image>
-            <image:loc>https://nathanrwatalahportfolio.com/images/personal/nathan-watalah-beach-grand-cape-mount-county-liberia-2026.jpg</image:loc>
-            <image:title>At the Beach</image:title>
-            <image:caption>Relaxing on beach in Grand Cape Mount County, Liberia 2026</image:caption>
-        </image:image>
-
-        <image:image>
-            <image:loc>https://nathanrwatalahportfolio.com/images/personal/nathan-watalah-christmas-robertsport-grand-cape-mount-liberia-2025.jpg</image:loc>
-            <image:title>Christmas in Robertsport</image:title>
-            <image:caption>Celebrating Christmas Day in Robertsport City, Grand Cape Mount County, Liberia 2025</image:caption>
-        </image:image>
-
-        <image:image>
-            <image:loc>https://nathanrwatalahportfolio.com/images/personal/nathan-watalah-new-year-maryland-county-liberia.jpg</image:loc>
-            <image:title>New Year Celebration</image:title>
-            <image:caption>Relaxing on lounge chair poolside during New Year's Day celebration in Maryland County, Liberia</image:caption>
-        </image:image>
-
-        <!-- Events & Activities -->
-        <image:image>
-            <image:loc>https://nathanrwatalahportfolio.com/images/personal/nathan-watalah-wedding-engagement-grand-bassa-county-liberia-2025.jpg</image:loc>
-            <image:title>Wedding Engagement Ceremony</image:title>
-            <image:caption>Attending wedding engagement ceremony in Grand Bassa County, Liberia 2025</image:caption>
-        </image:image>
-
-        <image:image>
-            <image:loc>https://nathanrwatalahportfolio.com/images/personal/nathan-watalah-web-developer-coding-portfolio-website-liberia.jpg</image:loc>
-            <image:title>Building Portfolio Website</image:title>
-            <image:caption>Coding and building his portfolio website on laptop in his room in Liberia, web developer at work</image:caption>
-        </image:image>
-
-        <image:image>
-            <image:loc>https://nathanrwatalahportfolio.com/images/personal/nathan-watalah-computer-hardware-practical-training-liberia.jpg</image:loc>
-            <image:title>Computer Hardware Training Class</image:title>
-            <image:caption>In computer hardware practical class with students learning IT skills in Liberia</image:caption>
-        </image:image>
-
-        <!-- Family -->
-        <image:image>
-            <image:loc>https://nathanrwatalahportfolio.com/images/personal/nathan-watalah-mother-liberia.jpg</image:loc>
-            <image:title>Nathan R Watalah's Mother</image:title>
-            <image:caption>His mother in Liberia wearing blue shirt and traditional headwrap</image:caption>
+            <image:loc>https://nathanrwatalahportfolio.com/images/projects/desktop-task-manager-app.png</image:loc>
+            <image:title>Desktop Task Manager in Python</image:title>
+            <image:caption>Python and Tkinter desktop task manager using SQLite for task data</image:caption>
         </image:image>
 
     </url>
 
+    <!-- Knowledge base and canonical category/article pages -->
+    <url>
+        <loc>https://nathanrwatalahportfolio.com/knowledge-base/</loc>
+        <lastmod>2026-10-09</lastmod>
+    </url>
+    <url>
+        <loc>https://nathanrwatalahportfolio.com/knowledge-base/hardware/</loc>
+        <lastmod>2026-10-09</lastmod>
+    </url>
+    <url>
+        <loc>https://nathanrwatalahportfolio.com/knowledge-base/software/</loc>
+        <lastmod>2026-10-09</lastmod>
+    </url>
+    <url>
+        <loc>https://nathanrwatalahportfolio.com/knowledge-base/accounts/</loc>
+        <lastmod>2026-10-09</lastmod>
+    </url>
+    <url>
+        <loc>https://nathanrwatalahportfolio.com/knowledge-base/network/</loc>
+        <lastmod>2026-10-09</lastmod>
+    </url>
+    <url>
+        <loc>https://nathanrwatalahportfolio.com/knowledge-base/hardware/printer-not-printing/</loc>
+    </url>
 </urlset>

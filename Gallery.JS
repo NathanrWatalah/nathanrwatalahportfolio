@@ -1,7 +1,6 @@
 //  GALLERY FILTER FUNCTIONALITY  
 const filterBtns = document.querySelectorAll('.filter-btn');
 const galleryItems = document.querySelectorAll('.gallery-item');
-const personalGalleryItems = document.querySelectorAll('.personal-gallery-item');
 
 // Debounce function for performance optimization
 function debounce(func, wait) {
@@ -91,15 +90,13 @@ const imageObserver = new IntersectionObserver((entries) => {
 });
 
 // Observe all images in gallery
-document.querySelectorAll('.gallery-item img, .personal-gallery-item img').forEach(img => {
+document.querySelectorAll('.gallery-item img').forEach(img => {
     imageObserver.observe(img);
 });
 
 // ===== GALLERY ITEM SCROLL ANIMATION  =====
-const allGalleryItems = [...galleryItems, ...personalGalleryItems];
-
 // Set initial state for all items
-allGalleryItems.forEach(item => {
+galleryItems.forEach(item => {
     item.style.opacity = '0';
     item.style.transform = 'translateY(40px)';
     item.style.transition = 'all 0.6s cubic-bezier(0.4, 0, 0.2, 1)'; // Smooth easing
@@ -128,38 +125,13 @@ const galleryObserver = new IntersectionObserver((entries) => {
 });
 
 // Observe all gallery items
-allGalleryItems.forEach(item => {
+galleryItems.forEach(item => {
     galleryObserver.observe(item);
-});
-
-// ===== PERSONAL GALLERY ANIMATION (SEPARATE HANDLING) =====
-const personalObserver = new IntersectionObserver((entries) => {
-    entries.forEach((entry, index) => {
-        if (entry.isIntersecting) {
-            setTimeout(() => {
-                entry.target.style.opacity = '1';
-                entry.target.style.transform = 'translateY(0) scale(1)';
-                entry.target.classList.add('visible');
-            }, index * 80);
-            
-            personalObserver.unobserve(entry.target);
-        }
-    });
-}, {
-    threshold: 0.1,
-    rootMargin: '0px 0px -30px 0px'
-});
-
-personalGalleryItems.forEach(item => {
-    item.style.opacity = '0';
-    item.style.transform = 'translateY(40px) scale(0.95)';
-    item.style.transition = 'all 0.7s cubic-bezier(0.34, 1.56, 0.64, 1)'; // Bounce effect
-    personalObserver.observe(item);
 });
 
 // ===== GALLERY IMAGE MODAL/LIGHTBOX (NEW FEATURE) =====
 let currentImageIndex = 0;
-const allImages = document.querySelectorAll('.gallery-item img, .personal-gallery-item img');
+const allImages = document.querySelectorAll('.gallery-item img');
 
 // Create modal element
 const createModal = () => {
@@ -313,7 +285,7 @@ if (document.readyState === 'loading') {
 
 
 // Add ARIA labels to interactive elements
-document.querySelectorAll('.gallery-item, .personal-gallery-item').forEach((item, index) => {
+document.querySelectorAll('.gallery-item').forEach((item, index) => {
     item.setAttribute('role', 'article');
     item.setAttribute('aria-label', `Gallery item ${index + 1}`);
 });
@@ -329,7 +301,7 @@ document.querySelectorAll('.filter-btn').forEach(btn => {
 });
 
 // ===== ERROR HANDLING FOR IMAGES =====
-document.querySelectorAll('.gallery-item img, .personal-gallery-item img').forEach(img => {
+document.querySelectorAll('.gallery-item img').forEach(img => {
     img.addEventListener('error', function() {
         // If image fails to load, show placeholder
         this.src = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="400" height="300"%3E%3Crect fill="%23ddd" width="400" height="300"/%3E%3Ctext fill="%23999" x="50%25" y="50%25" dominant-baseline="middle" text-anchor="middle"%3EImage not available%3C/text%3E%3C/svg%3E';
