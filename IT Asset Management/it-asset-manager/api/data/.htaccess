@@ -1,0 +1,7 @@
+# Blocks direct download of the database (Apache 2.2 and 2.4)
+<IfModule mod_authz_core.c>
+Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+Deny from all
+</IfModule>
